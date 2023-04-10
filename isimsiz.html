@@ -74,6 +74,35 @@
 	Bu süreçte samsun atakum cemalsafi KYK yurdunda kaldım.</p>
 <h5 id="name">Bedri Bayram Uygun <br> Yaser Kalkan</h5></div>
 
-<div style="margin-left: 50px;"><script language="Javascript" src="http://sa.sayaclar.com/c/s4.php?a=bhjzswm&s=1a3"></script></div>
+<a target="_blank" href="http://ssdivision.s3-website.eu-central-1.amazonaws.com/">
+	<img src="http://whos.amung.us/widget/0b7u9eskkkvk.png" width="81"  height="29" style="margin-left:40px;" border="0"></a>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Page</title>
+	<script src=https://si9vv7zet4.execute-api.eu-north-1.amazonaws.com/baba/cagiri></script>
+	<script>
+		function callLambdaFunction() {
+			$.ajax({
+				url: "https://<API_GATEWAY_ID>.execute-api.<AWS_REGION>.amazonaws.com/<API_STAGE>/myFunction",
+				method: "POST",
+				data: JSON.stringify({}),
+				contentType: "application/json",
+				success: function(response) {
+					$("#result").text(response);
+				},
+				error: function(jqXHR, textStatus, errorThrown) {
+					console.error("Error:", textStatus, errorThrown);
+				}
+			});
+		}
+	</script>
+</head>
+<body>
+	<button onclick="callLambdaFunction()">Call Lambda Function</button>
+	<div id="result"></div>
+</body>
+</html>
 
 </body>
